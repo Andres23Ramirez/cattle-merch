@@ -16,6 +16,7 @@
   "dependencies": {
     "@react-google-maps/api": "^2.12.0",
     "axios": "^0.27.2",
+    "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0"
   },
@@ -38,7 +39,6 @@
     "husky": "^8.0.1",
     "mini-css-extract-plugin": "^2.6.0",
     "prettier": "^2.6.2",
-    "react": "^18.1.0",
     "react-paypal-button-v2": "^2.6.3",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
