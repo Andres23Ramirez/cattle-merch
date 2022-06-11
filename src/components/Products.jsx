@@ -4,8 +4,7 @@ import Product from './Product'
 import AppContext from '../context/AppContext.js'
 
 const Products = () => {
-  const {state, addToCart} = useContext(AppContext)
-  const { products } = state
+  const {products, addToCart} = useContext(AppContext)
 
   const handleAddToCart = (product) => () => {
       addToCart(product)
